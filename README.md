@@ -17,11 +17,11 @@ This file has two functions:
 
 1. **processArray**:
 
-   - **Purpose**: Processes an array of numbers, squaring even numbers and cubing odd numbers.
+   - **Purpose**: Processes an array of numbers, squaring even numbers and trippling odd numbers.
    - **Example**:
      ```javascript
      function processArray(x) {
-       return x.map((num) => (num % 2 === 0 ? num ** 2 : num + 3));
+       return x.map((num) => (num % 2 === 0 ? num ** 2 : num * 3));
      }
      console.log(processArray([1, 2, 3, 4, 5]));
      ```
