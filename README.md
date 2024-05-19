@@ -21,7 +21,7 @@ This file has two functions:
    - **Example**:
      ```javascript
      function processArray(x) {
-       return x.map((num) => (num % 2 === 0 ? num ** 2 : num ** 3));
+       return x.map((num) => (num % 2 === 0 ? num ** 2 : num + 3));
      }
      console.log(processArray([1, 2, 3, 4, 5]));
      ```
