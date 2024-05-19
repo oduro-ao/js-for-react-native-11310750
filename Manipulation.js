@@ -6,7 +6,7 @@ function processArray(x) {
     if (x[i] % 2 === 0) {
       processed_array.push(x[i] ** 2);
     } else {
-      processed_array.push(x[i] + 3);
+      processed_array.push(x[i] * 3);
     }
   }
 
